@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "react-scripts test",
-    "test-coverage": "react-scripts test --coverageDirectory --coverage --watchAll=false"
+    "test-coverage": "npm run test -- --coverage --watchAll"
   },
   "jestSonar": {
     "reportPath": "test-coverage/sonar",
