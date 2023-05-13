@@ -16,7 +16,7 @@ jobs:
       - name: Test and coverage
         run: npm run test --coverage --watchAll
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: DiegoFChC/prueba-coverage@main
         env:
           SONAR_TOKEN: ${{ secrets. SONARCLOUD_TOKEN }}
 
