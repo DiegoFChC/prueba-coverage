@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: npm install
+        run: npm run install
       - name: Test and coverage
-        run: react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false
+        run: npm run test-coverage
 
