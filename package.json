@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "react-scripts test",
-    "test-coverage": "react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false --testResultsProcessor jest-sonar-reporter"
+    "test-coverage": "react-scripts test --coverageDirectory --coverage --watchAll=false"
   },
   "jestSonar": {
     "reportPath": "test-coverage/sonar",
