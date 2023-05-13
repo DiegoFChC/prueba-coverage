@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: npm run install
+        run: install
       - name: Test and coverage
-        run: npm run test-coverage
+        run: test-coverage
 
