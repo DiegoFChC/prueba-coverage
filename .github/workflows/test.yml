@@ -1,14 +1,15 @@
 name: test
 on:
   push:
-    - main
+    branches:
+      - main
 jobs:
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
-      steps:
-        - name: Install dependencies
-          run: npm
-        - name: Test and coverage
-          run: react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false
+    steps:
+      - name: Install dependencies
+        run: npm
+      - name: Test and coverage
+        run: react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false
 
