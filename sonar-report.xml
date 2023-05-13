@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\UNIVALLE\2023-I\Desarrollo II\Pruebas\prueba-coverage\src\components\Suma.test.js">
+    <testCase name="renders content" duration="101"/>
+    <testCase name="clicking the button calls event handler once" duration="40"/>
+  </file>
+</testExecutions>
