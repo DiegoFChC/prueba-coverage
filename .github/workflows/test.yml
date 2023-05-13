@@ -14,5 +14,5 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test and coverage
-        run: test-coverage
+        run: react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false
 
