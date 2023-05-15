@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, fireEvent } from "@testing-library/react";
-import Suma from "../components/Suma";
+import Suma from "./Suma";
 
 test("renders content", () => {
   const suma = {
